@@ -8,7 +8,7 @@ function checkAnswer() {
 	var userAnswer = document.getElementById("answer").value.toLowerCase();
 	var result = document.getElementById("result");
 
-	if (userAnswer === "opasity: 1;" || userAnswer === "visibility: visible;") {
+	if (userAnswer === "opacity: 1;" || userAnswer === "visibility: visible;") {
 		result.innerHTML = "Правильно! Вы нашли сокровище.";
 		result.classList.remove("incorrect");
 		result.classList.add("correct");
